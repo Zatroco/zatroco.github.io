@@ -1,0 +1,42 @@
+* {	
+	color: #D1FBFF;
+	font-family: Arial;
+}
+
+body {
+	background-image: url("background.jpg");
+}
+
+input {
+	color: #19008B;
+}
+
+table, th, td {
+	border: 1px solid #D1FBFF;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 2px;
+}
+
+.buttons {
+	padding-left: 50px
+}
+
+.form {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.prizes {
+	padding-left: 50px;
+}
+
+.title {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+#topLine {
+	border-top: 5px solid #D1FBFF;
+}
