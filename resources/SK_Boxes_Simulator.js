@@ -160,9 +160,9 @@ function checkValid(id) {
 function percentSum() {
 	var sum = 0;
 	for (var i = 0; i < prizePools; i++) {
-		sum += parseInt(document.getElementById("pool" + i).value);
+		sum += parseFloat(document.getElementById("pool" + i).value);
 	}
-	sum = parseInt(sum);
+	sum = parseFloat(sum);
 	if (sum == 100) {
 		feedBack("percentSum", sum + "%", colorValid)
 		return true;
