@@ -3,6 +3,10 @@
 	font-family: Arial;
 }
 
+a {
+	color: #179AFF;
+}
+
 body {
 	background-image: url("background.jpg");
 }
@@ -19,12 +23,21 @@ table, th, td {
 }
 
 .buttons {
-	padding-left: 50px
+	padding-left: 50px;
 }
 
 .form {
 	padding-left: 50px;
 	padding-right: 50px;
+}
+
+.instructions {
+	position: absolute;
+	right: 50px;
+}
+
+.instructions h3 {
+	text-align: right;
 }
 
 .prizes {
